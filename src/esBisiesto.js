@@ -1,8 +1,11 @@
 function Bisiesto(anio) {
+    let res;
     if (anio%400 === 0){
-        return true;
+        res = true;
+    }else{
+        res = false
     }
-    return false;
+    return res;
   }
   
   export default Bisiesto;
