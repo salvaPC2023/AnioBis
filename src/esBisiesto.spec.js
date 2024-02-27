@@ -16,4 +16,7 @@ describe("Es Bisiesto", () => {
   it("Un numero dividible entre 4 es un anio bisiesto", () => {
     expect(Bisiesto(2008)).toEqual(true);
   });
+  it("Un numero dividible entre 4 es un anio bisiesto", () => {
+    expect(Bisiesto(2017)).toEqual(false);
+  });
 });
