@@ -3,7 +3,11 @@ function Bisiesto(anio) {
     if (anio%400 === 0){
         res = true;
     }else{
-        res = false
+        if(anio%100 === 0){
+            res = false;
+        }else{
+            res = false;
+        }
     }
     return res;
   }
