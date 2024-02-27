@@ -1,5 +1,5 @@
 function Bisiesto(anio) {
-    if (anio===4){
+    if (anio%400 === 0){
         return true;
     }
     return false;

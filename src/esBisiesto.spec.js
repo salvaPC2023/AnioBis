@@ -1,7 +1,10 @@
-import generarFizzBuzz from "./fizzbuzz.js";
+import Bisiesto from "./esBisiesto.js";
 
-describe("EsBisiesto", () => {
-  it("El 4 deberia ser anio bisiesto", () => {
-    expect(Bisiesto(4)).toEqual(true);
+describe("Es Bisiesto", () => {
+  it("", () => {
+    expect(Bisiesto()).toEqual(false);
+  });
+  it("El 2000 es un anio bisiesto", () => {
+    expect(Bisiesto(2000)).toEqual(true);
   });
 });
